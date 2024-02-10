@@ -6,7 +6,7 @@ public class Review03 {
 		// TODO Auto-generated method stub
 
 		BaseBallTeam team1 = new BaseBallTeam("東京ヤクルトスワローズ", 80, 59, 4);
-		BaseBallTeam team2 = new BaseBallTeam("横浜DNAベイスターズ", 73, 68, 2);
+		BaseBallTeam team2 = new BaseBallTeam("横浜DeNAベイスターズ", 73, 68, 2);
 		BaseBallTeam team3 = new BaseBallTeam("阪神タイガース", 68, 71, 4);
 		BaseBallTeam team4 = new BaseBallTeam("読売ジャイアンツ", 68, 72, 3);
 		BaseBallTeam team5 = new BaseBallTeam("広島東洋カープ", 66, 74, 3);

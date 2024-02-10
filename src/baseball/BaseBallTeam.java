@@ -5,18 +5,18 @@ public class BaseBallTeam {
 	private String name;
 	private int win;
 	private int lose;
-	private int drow;
+	private int draw;
 
 	public BaseBallTeam() {
 
 	}
 
-	public BaseBallTeam(String name, int win, int lose, int drow) {
+	public BaseBallTeam(String name, int win, int lose, int draw) {
 
 		this.name = name;
 		this.win = win;
 		this.lose = lose;
-		this.drow = drow;
+		this.draw = draw;
 
 	}
 
@@ -45,14 +45,14 @@ public class BaseBallTeam {
 	}
 
 	public int getDrow() {
-		return drow;
+		return draw;
 	}
 
 	public void setDrow(int drow) {
-		this.drow = drow;
+		this.draw = draw;
 	}
 
-	public double getLate() {
+	public double getRate() {
 
 		return (double) win / (win + lose);
 
@@ -60,7 +60,7 @@ public class BaseBallTeam {
 
 	public void report() {
 
-		System.out.println(name + "の2022年の成績は" + win + "勝" + lose + "敗" + drow + "分、勝率は" + getLate() + "です。");
+		System.out.println(name + "の2022年の成績は" + win + "勝" + lose + "敗" + draw + "分、勝率は" + getRate() + "です。");
 
 	}
 
