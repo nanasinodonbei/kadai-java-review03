@@ -44,11 +44,11 @@ public class BaseBallTeam {
 		this.lose = lose;
 	}
 
-	public int getDrow() {
+	public int getDraw() {
 		return draw;
 	}
 
-	public void setDrow(int drow) {
+	public void setDraw(int drow) {
 		this.draw = draw;
 	}
 
